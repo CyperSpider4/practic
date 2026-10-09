@@ -26,3 +26,5 @@ def set_book(data: BookCreateSchema):
     book = data.book
     return {"message": "Книга обновлена", "book": book}
 
+
+
